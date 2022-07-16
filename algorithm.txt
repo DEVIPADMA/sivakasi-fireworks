@@ -1,0 +1,10 @@
+As discussed in the problem description, one room must contain at most 2 labours. But, these rules are not followed by fireworks industries. Inorder to save lives even when such accidents occur, the rules must be followed. So, to monitor the labour count in a room, a sensor must be attached to the door.The following algorithm when coded and applied to the sensor, the number of labours could be controlled.
+Algorithm:
+1.  Let us consider the working room as a stack.
+2.  Since only 2 labourers are allowed in a room, let's say the size of the stack is two.
+3.  Now, when 1 person moves into the room, one input is pushed into the stack.
+4.  Similarly, when 1 person moves out of the room, one element pops out of the stack.
+5.  So after 2 members entered the room, the stack became full. When a third member tries to enter, the sensor detects it and an alarm sound is heard.
+6.  By this algorithm, the third person can enter the room only when one of the first two persons comes out of the room.
+    	This algorithm is not only applicable for labour counting, but also for calculating the amount of  chemicals to be stored in a store house.
+      
